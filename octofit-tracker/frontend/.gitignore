@@ -1,13 +1,7 @@
-.DS_Store
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Virtual Environment
-venv
-
-# octofit tracker app
-# octfit-tracker
-
-# React node_modules
-node_modules
+# dependencies
+/node_modules
 /.pnp
 .pnp.js
 
@@ -27,10 +21,3 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Python files
-*.pyc
-__pycache__/
-
-# Virtual Environment folder
-.venv/
