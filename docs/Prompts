@@ -1,0 +1,170 @@
+-----
+
+Hey copilot, how can I create and publish a new Git branch called build-octofit-app?
+
+-----
+
+Let's take the following step by step and generate instructions in this order and execute the commands.
+Use docs/mona-high-school-fitness-tracker.md as a guide for the project structure and requirements.
+
+1. Understand the story of creating the fitness application from the docs/octofit_story.md file.
+2. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
+3. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
+
+1. Install MongoDB and make sure the command is complete.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
+
+1. Start the MongoDB service.
+2. Verify the MongoDB service running.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app,  > let's setup the Python Django project/app and run the server.
+
+1. The octofit-tracker/backend directory will store the django project and app with the name octofit-tracker.
+2. Setup the additional configuration for the django project/app with the name octofit-tracker.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
+
+1. Initialize the mongo octofit_db database.
+2. Create a correct table structure for users, teams, activity, leaderboard, and workouts collections.
+3. Make sure there is a unique ID for the primary key for the user collection.
+  ex. db.users.createIndex({ "email": 1 }, { unique: true })
+4. Execute the command for me to create the database.
+5. List the collections in the octofit_db database.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
+
+1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the MongoDB database connection.
+2. Update the octofit-tracker/backend/octofit_tracker/models.py file to include the models for users, teams, activity, leaderboard, and workouts collections.
+3. Update the octofit-tracker/backend/octofit_tracker/serializers.py file to include the serializers for users, teams, activity, leaderboard, and workouts collections.
+4. Update the octofit-tracker/backend/octofit_tracker/urls.py file to include the URLs for users, teams, activity, leaderboard, and workouts collections.
+5. Update the octofit-tracker/backend/octofit_tracker/views.py file to include the views for users, teams, activity, leaderboard, and workouts collections.
+6. Update the octofit-tracker/backend/octofit_tracker/tests.py file to include the tests for users, teams, activity, leaderboard, and workouts collections.
+7. Update the octofit-tracker/backend/octofit_tracker/admin.py file to include the admin for users, teams, activity, leaderboard, and workouts collections.
+8. Make sure api_root is in octofit-tracker/backend/octofit_tracker/urls.py
+9. Enable CORS in the octofit-tracker/backend/octofit_tracker/settings.py file to allow cross-origin requests from the frontend React app and allow all origins, methods, and headers.
+10. Allow all hosts in the settings.py file.
+11. Install CORS middleware components.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from docs/mona-high-school-fitness-tracker.md file.
+
+1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
+2. Run makemigrations and migrate the database in a Python virtual environment.
+3. Populate the octofit_db database with test data for users, teams, activities, leaderboard, and workouts collections based on test data in docs/mona-high-school-fitness-tracker.md octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py.
+4. Verify the test data is populated in the octofit_db database.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+[Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name]
+[You can get the codespace name by running the following command in the terminal: echo $CODESPACE_NAME.]
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's setup codespace for the URL, start the server via VS Code launch.json, and test the API.
+
+1. Activate the Python virtual environment.
+2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
+3. Make sure the Django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
+4. Test the API endpoints using curl command.
+5. Allow host access to codespace URL and localhost:8000.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's setup codespace for the octofit-tracker frontend React framework.
+
+1. Make the octofit-tracker/frontend directory.
+2. Create the react app in the octofit-tracker/frontend directory.
+3. Install stable versions of React framework and modules based on docs/mona-high-school-fitness-tracker.md.
+4. Install stable bootstrap in the octofit-tracker/frontend directory.
+5. Import bootstrap css in the src/index.js file.
+6. Install the stable react-router-dom in the octofit-tracker/frontend directory.
+7. Don't change .gitignore file
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+[Make sure to replace [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME] with your codespace name]
+[You can get the codespace name by running the following command in the terminal: echo $CODESPACE_NAME.]
+[musical-couscous-7p9wr646xgp2rgj4]
+
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's update the octofit-tracker frontend React components.
+
+- Update the following components to include the React framework to point to the backend API:
+  - src/App.js
+  - src/index.js
+  - src/components/Activities.js
+  - src/components/Leaderboard.js
+  - src/components/Teams.js
+  - src/components/Users.js
+  - src/components/Workouts.js
+- In each component replace the fetch url with the codespace url https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev/api/<component> for the Django rest framework backend.
+- Make sure to use the correct port and protocol http or https.
+- Update src/App.js to include the main navigation for all components.
+- Make sure react-router-dom is used for the navigation menu.
+- The react app should show the navigation menu and the components.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
+
+- Let's make the App.js and all components javascript files in the app are consistent with the following:
+  - Use bootstrap tables for the data in all javascript components.
+  - Use bootstrap buttons for the buttons.
+  - Use bootstrap headings for the headings.
+  - Use bootstrap links for the links.
+  - Use bootstrap navigation for the navigation menu.
+  - Use bootstrap forms for the forms.
+  - Use bootstrap cards for the cards.
+  - Use bootstrap modals for the modals.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+
+-----
+
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
+
+-  Edit the App.css file to do the following:
+  - Add some color to the background.
+  - Add some color to the text.
+  - Add some color to the tables.
+  - Add some color to the buttons.
+  - Add some color to the headings.
+  - Add some color to the links.
+  - Add some color to the navigation menu.
+- Add the octofitapp-small logo justified to the left to the app and make it look nice.
+- Add a favicon to the app and make it look nice.
+
+Don't proceed with the next activity until all of these steps are completed.
+
